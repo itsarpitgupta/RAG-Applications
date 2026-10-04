@@ -1,0 +1,53 @@
+# Environment & Secrets (NEVER COMMIT SENSITIVE API KEYS)
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+.streamlit/secrets.toml
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+*.python-version
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+wheels/
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project-3 Runtime Storage & Test Scratch
+Project-3/storage/*.db
+Project-3/storage/*.sqlite3
+Project-3/storage/raw_docs/*
+!Project-3/storage/raw_docs/.gitkeep
+Project-3/storage/faiss_index/*
+!Project-3/storage/faiss_index/.gitkeep
+Project-3/storage/test_ui_result.png
+Project-3/scratch_test_ui.py
+
+# Logs
+*.log

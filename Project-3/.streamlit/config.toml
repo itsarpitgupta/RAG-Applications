@@ -1,0 +1,4 @@
+[server]
+headless = false
+fileWatcherType = "none"
+runOnSave = false
